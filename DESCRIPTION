@@ -1,0 +1,19 @@
+Package: ebergoetzen
+Type: Package
+Title: Data Management for the Ebergoetzen Terra Network
+Version: 0.1.2
+Author: Michael Dietze
+Maintainer: Michael Dietze <michael.dietze@uni-goettingen.de>
+Description: Functions to access, download, parse and organise measurement
+    data from the Ebergoetzen Terra Network. The package homogenises 
+    workflows from a previous collection of R functions.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Imports:
+    caTools,
+    stats,
+    terra,
+    R.utils,
+    dwdradar

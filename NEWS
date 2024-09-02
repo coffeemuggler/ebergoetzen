@@ -1,0 +1,13 @@
+Changes for R-package ebergoetzen
+
+Version 0.1.2 (t.b.a.)
+  - function added, dwd_subset()
+  - function added, dwd_get()
+  - bug fixed, rain values changed from amount to amount RT-NRT
+  - function added, get_rainevent
+
+Version 0.1.1 (2023-06-28)
+  - feature added, read_data(), smoothen data
+  - feature added, read_data(), aggregate data
+  - bug fixed, read_data(), time zone set to UTC throughout
+
